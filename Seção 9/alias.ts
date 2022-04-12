@@ -1,0 +1,1 @@
+export const someName = "Acabou de ser renomeada";

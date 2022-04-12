@@ -1,0 +1,5 @@
+Segunda: Seção 1 a 4
+Terça: Seção 5 a 8
+Quarta: Seção 9 a 12
+Quinta: Seção 13 a 17
+Sexta: 
