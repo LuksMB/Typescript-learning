@@ -138,4 +138,4 @@ type testando2 = "Types";
 type a = `${testando1}` | `${testando2}`
 
 
-//Fim da Seção.
+//Fim da Seção..
