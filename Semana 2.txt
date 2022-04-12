@@ -1,0 +1,4 @@
+Terça: 11
+Quarta: 12
+Quinta: 13, 14
+Sexta ou Sabádo: Projeto

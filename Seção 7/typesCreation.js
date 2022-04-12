@@ -15,7 +15,7 @@ console.log(mostrarDado(5));
 console.log(mostrarDado("Teste"));
 console.log(mostrarDado(true));
 espaco();
-//2. Constraints em Generics ---> A peça que faltava para limitar os tipos que os generics aceitam.
+//2. Constraints em Generics ---> O recurso usado para limitar os tipos que os generics aceitam.
 function mostrarNome(obj) {
     return `O nome é ${obj.nome}`;
 }
@@ -25,6 +25,7 @@ const obj1 = {
 };
 console.log(mostrarNome(obj1));
 const carro1 = { id: "Uno", rodas: 4, motor: 1.6, cor: "Vermelho" };
+const carro2 = { id: "Celta", rodas: 4, motor: 1.0, cor: "Branco" };
 const mouse1 = { id: "Mouse RGB", rodas: false, motor: false, cor: "Branco" };
 console.log(carro1);
 console.log(mouse1);
@@ -38,6 +39,7 @@ const server = {
     ram: "16GB"
 };
 console.log(getSomeKey(server, "ram"));
+console.log(getSomeKey(carro2, "id"));
 function mostrarKey(pessoa, key) {
     return `${pessoa[key]}`;
 }
@@ -63,4 +65,4 @@ function showKm(km) {
 showKm(pop100.km);
 const someVar = 45;
 const variavel = "some text";
-//Fim da Seção.
+//Fim da Seção..

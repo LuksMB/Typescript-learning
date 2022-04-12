@@ -46,6 +46,7 @@ type Carro = Gene<number, number, string>;
 type Mouse = Gene<boolean, boolean, string>;
 
 const carro1: Carro = {id: "Uno", rodas: 4, motor: 1.6, cor: "Vermelho"};
+const carro2: Carro = {id: "Celta", rodas: 4, motor: 1.0, cor: "Branco"};
 const mouse1: Mouse = {id: "Mouse RGB", rodas: false, motor: false, cor: "Branco"};
 
 console.log(carro1);
@@ -64,6 +65,7 @@ const server = {
 }
 
 console.log(getSomeKey(server, "ram"));
+console.log(getSomeKey(carro2, "id"));
 
 
 //5. keyof Type Operator  ---> permite criar tipos baseados nas chaves do objeto por meio de parâmetro.
